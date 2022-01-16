@@ -55,7 +55,7 @@ const App = () => {
           </Link>
           <center>
             <p style={{ position: "absolute", bottom: "0", width: "100%" }}>
-              Versoin 1.0.0
+              Version 1.0.0
             </p>
           </center>
         </Drawer>
