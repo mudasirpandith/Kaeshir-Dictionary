@@ -39,7 +39,7 @@ export default function Search() {
           if (searchTerm === "") {
             return (val = 0);
           } else if (
-            val.title.toLowerCase().includes(searchTerm.toLowerCase())
+            val.title.toLowerCase().includes(searchTerm.toLowerCase()) || val.kashmiriMeaning.toLowerCase().includes(searchTerm.toLowerCase())
           ) {
             return val;
           } else {
