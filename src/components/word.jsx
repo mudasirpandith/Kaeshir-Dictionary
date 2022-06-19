@@ -33,7 +33,7 @@ export default function Word() {
                 title={val.title}
                 pos={val.pos}
                 englishMeaning={val.englishExample}
-                kashmiriMeaning={val.kashmiriExample}
+                kashmiriMeaning={val.kashmiriMeaning}
                 englishExample={val.englishExample}
                 kashmiriExample={val.kashmiriExample}
               />
