@@ -34,7 +34,7 @@ export default function Home() {
               title={data[index].title}
               pos={data[index].pos}
               englishMeaning={data[index].englishExample}
-              kashmiriMeaning={data[index].kashmiriExample}
+              kashmiriMeaning={data[index].kashmiriMeaning}
               englishExample={data[index].englishExample}
               kashmiriExample={data[index].kashmiriExample}
             />
