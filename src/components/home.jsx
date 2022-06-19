@@ -33,7 +33,7 @@ export default function Home() {
               id={index}
               title={data[index].title}
               pos={data[index].pos}
-              englishMeaning={data[index].englishExample}
+              englishMeaning={data[index].englishMeaning}
               kashmiriMeaning={data[index].kashmiriMeaning}
               englishExample={data[index].englishExample}
               kashmiriExample={data[index].kashmiriExample}
